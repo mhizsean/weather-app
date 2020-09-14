@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.section-one {
+    text-align: center;
+    margin: 100px 0;
+}
+
+input[type="text"] {
+    height: 40px;
+    /* width: 600px; */
+    background: #e7e7e7;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: #000000;
+    outline: none;
+}
+
+input[type="submit"] {
+    height: 40px;
+    width: 100px;
+    background: #e7e7e7;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    padding: 7px;
+    color: #000000;
+    outline: none;
+    cursor: pointer;
+}
+
+.show-result {
+    text-align: center;
+    background-color: #e7e7e7;
+    width: 40%;
+    height: 300px;
+    margin: auto ;
+    border-radius: 25px;
+    padding: 100px 0;
+    visibility: visible;
+}
+
+.show-result .temp {
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 400px) {
+    
+    input[type="text"] {
+        height: 40px;
+        width: 200px;
+        padding: 7px 10px;
+        
+    }
+
+    .show-result {
+        width: 250px;
+
+    }
+}
